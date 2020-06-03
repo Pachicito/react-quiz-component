@@ -8,7 +8,7 @@ class Quiz extends Component {
   constructor(props){
     super(props);
     this.state = {
-      start: false,
+      start: true,
     }
     this.start = this.start.bind(this);
   }
